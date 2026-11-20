@@ -1,0 +1,42 @@
+.box1{
+	background-color:green;
+	color:white;
+	padding:16px;
+	transition: padding 3s;
+}
+.box1:hover{
+	padding:2em;
+	cursor:pointer;
+}
+.div1{
+	margin:3em;
+}
+.box2{
+	padding:.5em 1em;
+	box-shadow: 3px 3px 5px rgb(0,0,0,0.3);
+	background-color: green;
+	color:white;
+	margin:1em;
+	border:none;
+	cursor:pointer;
+
+
+}
+.box2:active{
+	margin-top:3px;
+	margin-left:3px;
+}
+.stretch-button{
+	margin:5px;
+	padding:0px 8px;
+	font-size:1em;
+	border:none;
+	background-color:green;
+	color:white;
+	transition:   0.3s;
+}
+.stretch-button:hover{
+	margin:0;
+	padding: 0px 1em ;
+	cursor:pointer;
+}
