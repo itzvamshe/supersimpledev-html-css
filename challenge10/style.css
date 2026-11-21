@@ -1,0 +1,46 @@
+*{
+ margin:0;
+ padding:0;
+}
+div{
+	display:flex;
+}
+.box{
+	margin-left:20px;
+	box-shadow:0px 0px 5px black;
+	height:320px;
+	display:flex;
+	flex-direction:column;
+	width:200px;
+	margin-top: 50px;
+}
+.box img{
+	/* width:100px; */
+}
+.post{
+	height:200px;
+}
+.pfp{
+	display:inline-block;
+	height:30px;
+	width:40px;
+	border-radius:700px;
+	margin:10px;
+
+}
+.name{
+	font-family:arial;
+	margin-left:10px;
+	margin-top:10px;
+}
+.desc p{
+	margin-top:10px;
+}
+button{
+	width:100px;
+	padding:.6em;
+	margin-left:10px;
+	border:none;
+	color:white;
+	background-color:#82C8E5;
+}
